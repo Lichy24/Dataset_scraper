@@ -60,9 +60,8 @@ class MTA:
 
 
 
-    def MTA_exercises_or_blogs(ans):
+    def MTA_exercises_or_blogs(ans, years):
         if ans == 'blogs':
-            years = ['2013','2014','2015','2016','2017','2018','2019','2020','2021']
             for year in years:
                 extract(year,ans)
         elif ans == 'exercises':
